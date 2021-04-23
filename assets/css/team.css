@@ -1,0 +1,130 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#navbarNav .active
+{
+    background:#000;
+    color: #fff;
+    border-radius: 20px;
+}
+#navbarNav ul li a
+{
+    color: #000;
+    font-weight: bolder;
+    margin:5px;
+    padding:6px 10px;
+    transition: 0.44s;
+}
+.navbar .navbar-brand img
+{
+    height: 50px;
+}
+#navbarNav ul li a:hover
+{
+    background:#000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#section1
+{
+    height:100vh;
+    width:100%;
+    background-image: url('../img/multicultural-hands-holding-gray-mockup-paper-wallpaper.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+#section1 .container
+{
+    padding-top: 150px;
+}
+#section1 img
+{
+    height:100px;
+}
+#section1 p
+{
+    font-weight: bold !important;
+}
+#section1 h1
+{
+    font-weight: bolder;
+}
+
+#section2 .container
+{
+    padding-top: 100px;
+}
+#section2 .card h5
+{
+    font-weight: bolder;
+}
+#section2 .card  p
+{
+    font-weight: bolder;
+}
+#section6
+{
+    background:url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
+}
+#section6 p
+{
+    color: #fff;
+}
+#section6 a
+{
+    color: #fff !important;
+    text-decoration: none;
+}
+#section6 h4
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#section6 h6
+{
+    color: #fff;
+    font-weight: bold;
+}
+#section6 ul li
+{
+    color: #fff;
+    margin:5px auto;
+    list-style-type: none;
+}
+#section7
+{
+    background-color: #000;
+}
+#section7 p
+{
+    font-size:0.7rem;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #section1
+    {
+        background-position: center;
+    }
+    #section2 .card
+    {
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,287 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#navbarNav ul li a
+{
+    color: #000;
+    font-weight: bolder;
+    margin:5px;
+    padding:6px 10px;
+    transition: 0.44s;
+}
+#navbarNav .active
+{
+    background:#000;
+    color: #fff;
+    border-radius: 20px;
+}
+.navbar .navbar-brand img
+{
+    height: 50px;
+}
+#navbarNav ul li a:hover
+{
+    background:#000;
+    color: #fff;
+    border-radius: 20px;
+}
+#section1
+{
+    height:100vh;
+    width:100%;
+    background:url('../img/new.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#section1 .container
+{
+    padding-top: 200px;
+}
+#section1 img
+{
+    height:120px;
+}
+#section1 h1
+{
+    font-weight: bold;
+    margin-top:20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#section1 span
+{
+    color:#3e2723;
+    border-bottom: 2px solid #3e2723;
+}
+#section1 p
+{
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#section1 .btn
+{
+    background:#e65100;
+    color: #fff;
+    border-radius: 0;
+    padding:10px 20px;
+    font-weight: bold;
+ 
+}
+#section2
+{
+    height:100vh;
+    width:100%;
+    background-image: url('../img/section2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section2 
+{
+    padding-top:200px;
+}
+#section2 h1
+{
+    font-weight: bolder;
+    color: #3e2723;
+}
+#section2 p
+{
+    line-height:29px;
+    color: #000;
+    font-weight: bolder;
+}
+#section2 span
+{
+    border-bottom: 2px solid #000;
+}
+#section3 .container
+{
+    padding-top: 80px;
+}
+
+#section3 h1
+{
+    text-align:center;
+}
+#section3 p
+{
+    text-align:justify;
+    font-weight: bold;
+}
+#section3 span
+{
+    color: #3e2723;
+    border-bottom: 2px solid #3e2723;
+}
+#section3 h2
+{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#section3 h5
+{
+    font-weight: bold;
+    font-size:1.2rem;
+}
+#section3 .btn
+{
+    background:#e65100;
+    color: #fff;
+    border-radius: 0;
+    padding:8px 15px;
+    font-weight: bold;
+}
+#section3 .card
+{
+    height:680px;
+}
+#section3 .card .details
+{
+    border: 0px solid #000;
+    height:290px;
+}
+#section3 .card .details2
+{
+    border: 0px solid #000;
+    height:266px;
+}
+#section3 .card ul li
+{
+    color: #000;
+    font-weight:bold;
+}
+#section4  span
+{
+    border-bottom: 2px solid #e65100;
+}
+#section4 .row span
+{
+    background:#e65100;
+    padding:5px;
+    color: #fff;
+}
+#section4 h1
+{
+    font-weight: bold;
+}
+#section4 h3 span
+{
+    padding:2px 10px;
+    background:#3e2723;
+    color: #fff;
+    font-weight: bold;
+}
+#section4 i
+{
+    color: #e65100;
+    font-size:3rem;
+}
+#section4 p
+{
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height:30px;
+}
+#section4 .back
+{
+    background:#3e2723;
+    color: #fff;
+}
+#section4 ul li
+{
+    font-weight: bolder;
+    margin:5px auto;
+}
+#section5 h1
+{
+    text-align: center;
+}
+#section5 span
+{
+    border-bottom: 2px solid #e65100;
+}
+#section6
+{
+    background:url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
+}
+#section6 p
+{
+    color: #fff;
+}
+#section6 a
+{
+    color: #fff !important;
+    text-decoration: none;
+}
+#section6 h4
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#section6 h6
+{
+    color: #fff;
+    font-weight: bold;
+}
+#section6 ul li
+{
+    color: #fff;
+    margin:5px auto;
+    list-style-type: none;
+}
+#section7
+{
+    background-color: #000;
+}
+#section7 p
+{
+    font-size:0.7rem;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #section1
+    {
+        text-align: center;
+    }
+    #section2
+    {
+        text-align: center;
+    }
+    #section3 .card 
+    {
+        height:740px;
+        margin:5px auto;
+    }
+    #section3 .card .details
+    {
+        height:270px;
+        border: 0px solid #000;
+    }
+    #section4 h2
+    {
+        font-size:1.3rem;
+        font-weight: bold;
+    }
+  }
